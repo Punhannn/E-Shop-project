@@ -1,0 +1,858 @@
+header {
+    background-color: #fef5ef;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.headorta {
+    padding-right: 35px;
+    padding-top: 5px;
+}
+
+header>.headorta>nav>ul>li>label {
+    font-size: 18px;
+}
+
+label {
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+
+}
+label>a{
+    text-decoration: none;
+    color: black;
+}
+
+.headorta>nav>ul {
+    display: flex;
+}
+
+.headorta>nav>ul>li {
+    margin: 0 25px;
+}
+
+select {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #fef5ef;
+    height: 25px;
+}
+
+.headsag>a {
+    margin: 0 20px;
+}
+
+.headsag>a>i {
+    color: black;
+    font-size: 22px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.headeralt {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #fef5ef;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.headeralt>a {
+    color: black;
+    text-decoration: none;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: 0.3s all;
+}
+.headeralt>a:hover{
+    color: #f79837;
+}
+.headeralt>a:nth-child(1),
+.headeralt>a:nth-child(2) {
+    border-right: 2px solid black;
+}
+.headeralt>a:nth-child(3){
+    padding-left: 23px;
+}
+
+
+.fashion {
+    width: 100%;
+    height: 100vh;
+}
+
+.fuzluk {
+    height: inherit;
+    background-image: url(./details/images/liveforfashion2.png);
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+    background-position: right;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 132px;
+}
+
+.fuzluk {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#fsolbutton {
+    margin-top: 20px;
+    height: 40px;
+    width: 160px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+#hbir {
+    color: white;
+    font-size: 120px;
+    font-weight: bolder;
+}
+
+#fsolp {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+}
+
+.reklam {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+
+.reklam1,
+.reklam2,
+.reklam3 {
+    width: 30%;
+    height: 520px;
+}
+
+.reklam1,
+.reklam3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reklam1ust,
+.reklam1alt,
+.reklam3ust,
+.reklam3alt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    height: 240px;
+}
+
+.reklam2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+#narincispan {
+    color: #f79837;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+#goyspan {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#normalspan {
+    font-weight: bolder;
+}
+
+.reklam1ust {
+    background-image: url(./details/images/reklam1ust.png);
+    background-size: 100% 100%;
+    transition: 1s all;
+}
+
+.reklam1ust:hover {
+    background-size: 103% 103%;
+    background-position: 2px;
+
+}
+
+.reklam1alt:hover {
+    background-size: 103% 103%;
+    background-position: 2px;
+
+}
+
+.reklam2:hover {
+    background-size: 103% 103%;
+    background-position: 2px;
+
+}
+
+.reklam3ust:hover {
+    background-size: 103% 103%;
+    background-position: -2px;
+
+}
+
+.reklam3alt:hover {
+    background-size: 103% 103%;
+    background-position: 2px;
+
+}
+
+.reklam1alt {
+    background-image: url(./details/images/reklam1alt.png);
+    background-size: 100% 100%;
+    transition: 1s all;
+}
+
+.reklam2 {
+    background-image: url(./details/images/reklam2.png);
+    background-size: 100% 100%;
+    transition: 1s all;
+}
+
+.reklam3ust {
+    background-image: url(./details/images/reklam3ust.png);
+    background-size: 100% 100%;
+    transition: 1s all;
+}
+
+.reklam3alt {
+    background-image: url(./details/images/reklam3alt.png);
+    background-size: 100% 100%;
+    transition: 1s all;
+}
+
+.hotproductdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hoth2 {
+    margin-top: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 43px;
+}
+
+#hotp {
+    margin-top: 18px;
+}
+
+#hotbutton {
+    width: 140px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin-top: 18px;
+    font-weight: bolder;
+    font-size: 14px;
+    transition: 1s all;
+}
+
+#hotbutton:hover {
+    color: black;
+    background-color: white;
+}
+
+.productust,
+.productalt {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+
+div[class*="woman"] {
+    width: 320px;
+    height: 450px;
+    position: relative;
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px rgb(211, 211, 211);
+    transition: 1s all;
+}
+
+#new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 25px;
+    color: white;
+    background-color: #007a58;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 13px;
+}
+
+#hot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 25px;
+    color: white;
+    background-color: #fca32f;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 13px;
+}
+
+#heart,
+#change,
+#qr {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+}
+
+#cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 280px;
+}
+
+#heart {
+    top: 15px;
+    right: 15px;
+}
+
+#qr {
+    right: 15px;
+    top: 68px;
+}
+
+#change {
+    right: 15px;
+    top: 121px;
+}
+
+
+.woman1 {
+    background-image: url(./details/images/woman1.png);
+}
+
+.woman2 {
+    background-image: url(./details/images/woman2.png);
+}
+
+.woman3 {
+    background-image: url(./details/images/woman3.png);
+}
+
+.woman4 {
+    background-image: url(./details/images/woman4.png);
+}
+
+.woman5 {
+    background-image: url(./details/images/woman5.png);
+}
+
+.woman6 {
+    background-image: url(./details/images/woman6.png);
+}
+
+.woman7 {
+    background-image: url(./details/images/woman7.png);
+}
+
+.woman8 {
+    background-image: url(./details/images/woman8.png);
+}
+
+.walt {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.womanp {
+    font-size: 19px;
+}
+
+.woman1:hover {
+    background-image: url(./details/images/woman1hover.png);
+    background-size: 106% 86%;
+}
+
+.woman2:hover {
+    background-image: url(./details/images/woman2hover.png);
+    background-size: 106% 86%;
+}
+
+.woman3:hover {
+    background-image: url(./details/images/woman3hover.png);
+    background-size: 106% 86%;
+}
+
+.woman4:hover {
+    background-image: url(./details/images/woman4hover.png);
+    background-size: 106% 86%;
+}
+
+.woman5:hover {
+    background-image: url(./details/images/woman5hover.png);
+    background-size: 106% 86%;
+}
+
+.woman6:hover {
+    background-image: url(./details/images/woman6hover.png);
+    background-size: 106% 86%;
+}
+
+.woman7:hover {
+    background-image: url(./details/images/woman7hover.png);
+    background-size: 106% 86%;
+}
+
+.woman8:hover {
+    background-image: url(./details/images/woman8hover.png);
+    background-size: 106% 86%;
+}
+
+.boy {
+    background-color: #e9eaeb;
+}
+
+.boysol {
+    width: 40%;
+    height: 600px;
+    background-image: url(./details/images/boy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.boysag {
+    display: flex;
+    width: 60%;
+}
+
+.boy {
+    display: flex;
+}
+
+.kvadratlar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kvadrat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    height: 80px;
+    width: 90px;
+    border: 1px solid gray;
+}
+
+.boyinfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+.boyinfop {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+#tek {
+    margin: 35px 0;
+}
+
+#deal {
+    margin-top: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 43px;
+}
+
+.dealdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+#dealp {
+    margin-top: 18px;
+}
+
+.dealesas {
+    height: 500px;
+    overflow: auto;
+}
+
+.deallayout {
+    width: 3000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#newfashionh2 {
+    margin-top: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 43px;
+    color: white;
+}
+
+.newfashion {
+    height: 415px;
+    width: 100%;
+    background-image: url(./details/images/newfashion.png);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#newfashionbutton {
+    width: 140px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    margin-top: 18px;
+    font-weight: bolder;
+    font-size: 14px;
+    transition: 1s all;
+    border: none;
+}
+
+#newfashionbutton:hover {
+    background-color: black;
+    color: white;
+}
+
+.newfashionp {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#latestblogh2 {
+    margin-top: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 43px;
+    color: black;
+}
+
+.latestblogp {
+    margin-top: 12px;
+    color: rgb(131, 131, 131);
+    margin-bottom: 35px;
+}
+
+.latestesasust {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.latestesas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.latests1,
+.latests2,
+.latests3 {
+    width: 440px;
+    height: 500px;
+    position: relative;
+    background-size: 100% 62%;
+    background-repeat: no-repeat;
+    transition: 1s all;
+    overflow: hidden;
+}
+
+.latestsalt {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 38%;
+    background-color: white;
+}
+
+.latests1 {
+    background-image: url(./details/images/latest1.png);
+}
+
+.latests2 {
+    background-image: url(./details/images/latest2.png);
+}
+
+.latests3 {
+    background-image: url(./details/images/latest3.png);
+}
+
+.latestsalt {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.latestsalta {
+    color: #f79837;
+    font-weight: bolder;
+}
+
+.latestp {
+    color: gray;
+    width: 400px;
+}
+
+.latestabutton {
+    text-decoration: none;
+}
+
+.latestabuttonn {
+    background-color: white;
+    height: 40px;
+    width: 180px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.fa-arrow-right {
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+.latests1:hover {
+    background-size: 104% 66%;
+}
+
+.latests2:hover {
+    background-size: 104% 66%;
+}
+
+.latests3:hover {
+    background-size: 104% 66%;
+}
+
+#followush2 {
+    margin-top: 70px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 43px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.followus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.followusp {
+    margin-bottom: 40px;
+}
+
+.followusesas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+div[class*="followinsta"] {
+    width: 19%;
+    height: 365px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.followinsta1 {
+    background-image: url(./details/images/followus1.png);
+}
+
+.followinsta2 {
+    background-image: url(./details/images/followus2.png);
+}
+
+.followinsta3 {
+    background-image: url(./details/images/followus3.png);
+}
+
+.followinsta4 {
+    background-image: url(./details/images/followus4.png);
+}
+
+.followinsta5 {
+    background-image: url(./details/images/followus5.png);
+}
+
+.followwlayout {
+    width: 100%;
+    height: inherit;
+    background-color: rgb(255, 255, 255, 0.5);
+    display: none;
+}
+
+#followicon {
+    font-size: 45px;
+    margin: 170px 0 0 130px;
+}
+
+.followinsta1:hover .followwlayout {
+    display: block;
+}
+
+.followinsta2:hover .followwlayout {
+    display: block;
+}
+
+.followinsta3:hover .followwlayout {
+    display: block;
+}
+
+.followinsta4:hover .followwlayout {
+    display: block;
+}
+
+.followinsta5:hover .followwlayout {
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    padding-top: 70px;
+    background-color: rgb(237, 236, 236);
+}
+
+.foot1 {
+    height: 240px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot2 {
+    height: 200px;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot3 {
+    height: 200px;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot4 {
+    height: 160px;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer>.foot4>input {
+    display: block;
+    width: 90%;
+    height: 40px;
+}
+
+div[class*="foot"]>a {
+    text-decoration: none;
+    color: black;
+}
+
+.foot1>p {
+    color: gray;
+    line-height: 23px;
+}
+
+.iconlar>i {
+    margin-left: 10px;
+}
+
+.iconlar>.fa-facebook-f {
+    margin-left: 1px;
+}
+
+.footh3 {
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+input>::placeholder {
+    font-size: 30px;
+}
+
+.footbutton {
+    width: 160px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.footbutton:hover {
+    background-color: rgba(0, 0, 0, 0.726);
+}

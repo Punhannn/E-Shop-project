@@ -1,0 +1,145 @@
+.featureesas {
+    width: 44%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 7px rgb(202, 202, 202);
+}
+
+.feata1>div {
+    width: 100%;
+    height: 300px;
+    background-image: url(./details/images/feata1.jpg);
+}
+
+.feat2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feat2>h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.feat2>p {
+    color: rgb(128, 128, 128);
+    margin-bottom: 15px;
+}
+
+.feat3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.feat3sol,
+.feat3sag {
+    width: 50%;
+}
+
+.feat3alt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.feata2>div {
+    width: 100%;
+    height: 300px;
+    background-image: url(./details/images/feata2.jpg);
+    margin-bottom: 30px;
+}
+
+.feata3>div {
+    width: 100%;
+    height: 300px;
+    background-image: url(./details/images/feata3.jpg);
+    background-position: center;
+}
+
+.feat4 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.feat4sol,
+.feat4sag {
+    width: 35%;
+    box-shadow: 0px 0px 7px rgb(202, 202, 202);
+
+}
+
+.feat4alt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding-top: 15px;
+}
+.feat4alt>a{
+    text-decoration: none;
+}
+
+.feat4alt>.bir {
+    font-weight: 600;
+    font-size: 23px;
+    margin-block: 10px;
+}
+
+.feat4alt>.iki {
+    font-weight: 500;
+    color: rgb(107, 107, 107);
+    margin-bottom: 10px;
+}
+
+.feat4alt>.iki>span {
+    color: red;
+    margin-left: 12px;
+}
+.feat4alt>a>button{
+    border: 1px solid black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    width: 140px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+.feath3{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(72, 72, 72);
+    font-weight: 800;
+}
+.feat5{
+    display: flex;
+    justify-content: space-evenly;
+}
+.feat5>i{
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 15px;
+    color: rgb(61, 61, 61);
+    transition: 0.4s all;
+}
+.feat5>i:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,491 @@
+header {
+    background-color: #fef5ef;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.headorta {
+    padding-right: 35px;
+    padding-top: 5px;
+}
+
+header>.headorta>nav>ul>li>label {
+    font-size: 18px;
+}
+
+label {
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+label>a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.headorta>nav>ul {
+    display: flex;
+}
+
+.headorta>nav>ul>li {
+    margin: 0 25px;
+}
+
+
+.headsag>a {
+    margin: 0 20px;
+}
+
+.headsag>a>i {
+    color: black;
+    font-size: 22px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.shopbasliq {
+    margin-top: 60px;
+    height: 330px;
+    background-image: url(./details/images/shopbasliq.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopbasliq>h3 {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.avep {
+    display: flex;
+    margin: 20px 0 45px 0;
+}
+
+.avep>a {
+    color: white;
+    border-right: 2px solid white;
+    text-decoration: none;
+    height: 25px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avep>p {
+    color: orange;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter {
+    padding-inline: 47px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 30px 0;
+}
+.filtersol>select{
+    margin-top: 19px;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+.filtersag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filtersag>select{
+    margin-top: 19px;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 15px;
+    font-size: 18px;
+
+}
+
+label {
+    margin-bottom: 3px;
+}
+
+.productust,
+.productalt {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+
+div[class*="woman"] {
+    width: 320px;
+    height: 450px;
+    position: relative;
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px rgb(211, 211, 211);
+    transition: 1s all;
+}
+
+#new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 25px;
+    color: white;
+    background-color: #007a58;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 13px;
+}
+
+#hot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 25px;
+    color: white;
+    background-color: #fca32f;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 13px;
+}
+
+#heart,
+#change,
+#qr {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+}
+
+#cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 280px;
+}
+
+#heart {
+    top: 15px;
+    right: 15px;
+}
+
+#qr {
+    right: 15px;
+    top: 68px;
+}
+
+#change {
+    right: 15px;
+    top: 121px;
+}
+
+
+.woman1 {
+    background-image: url(./details/images/woman1.png);
+}
+
+.woman2 {
+    background-image: url(./details/images/woman2.png);
+}
+
+.woman3 {
+    background-image: url(./details/images/woman3.png);
+}
+
+.woman4 {
+    background-image: url(./details/images/woman4.png);
+}
+
+.woman5 {
+    background-image: url(./details/images/woman5.png);
+}
+
+.woman6 {
+    background-image: url(./details/images/woman6.png);
+}
+
+.woman7 {
+    background-image: url(./details/images/woman7.png);
+}
+
+.woman8 {
+    background-image: url(./details/images/woman8.png);
+}
+
+.walt {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.womanp {
+    font-size: 19px;
+}
+
+.woman1:hover {
+    background-image: url(./details/images/woman1hover.png);
+    background-size: 106% 86%;
+}
+
+.woman2:hover {
+    background-image: url(./details/images/woman2hover.png);
+    background-size: 106% 86%;
+}
+
+.woman3:hover {
+    background-image: url(./details/images/woman3hover.png);
+    background-size: 106% 86%;
+}
+
+.woman4:hover {
+    background-image: url(./details/images/woman4hover.png);
+    background-size: 106% 86%;
+}
+
+.woman5:hover {
+    background-image: url(./details/images/woman5hover.png);
+    background-size: 106% 86%;
+}
+
+.woman6:hover {
+    background-image: url(./details/images/woman6hover.png);
+    background-size: 106% 86%;
+}
+
+.woman7:hover {
+    background-image: url(./details/images/woman7hover.png);
+    background-size: 106% 86%;
+}
+
+.woman8:hover {
+    background-image: url(./details/images/woman8hover.png);
+    background-size: 106% 86%;
+}
+
+#followush2 {
+    margin-top: 70px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 43px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.followus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.followusp {
+    margin-bottom: 40px;
+}
+
+.followusesas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+div[class*="followinsta"] {
+    width: 19%;
+    height: 365px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.followinsta1 {
+    background-image: url(./details/images/followus1.png);
+}
+
+.followinsta2 {
+    background-image: url(./details/images/followus2.png);
+}
+
+.followinsta3 {
+    background-image: url(./details/images/followus3.png);
+}
+
+.followinsta4 {
+    background-image: url(./details/images/followus4.png);
+}
+
+.followinsta5 {
+    background-image: url(./details/images/followus5.png);
+}
+
+.followwlayout {
+    width: 100%;
+    height: inherit;
+    background-color: rgb(255, 255, 255, 0.5);
+    display: none;
+}
+
+#followicon {
+    font-size: 45px;
+    margin: 170px 0 0 130px;
+}
+
+.followinsta1:hover .followwlayout {
+    display: block;
+}
+
+.followinsta2:hover .followwlayout {
+    display: block;
+}
+
+.followinsta3:hover .followwlayout {
+    display: block;
+}
+
+.followinsta4:hover .followwlayout {
+    display: block;
+}
+
+.followinsta5:hover .followwlayout {
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    padding-top: 70px;
+    background-color: rgb(237, 236, 236);
+}
+
+.foot1 {
+    height: 240px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot2 {
+    height: 200px;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot3 {
+    height: 200px;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot4 {
+    height: 160px;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer>.foot4>input {
+    display: block;
+    width: 90%;
+    height: 40px;
+}
+
+div[class*="foot"]>a {
+    text-decoration: none;
+    color: black;
+}
+
+.foot1>p {
+    color: gray;
+    line-height: 23px;
+}
+
+.iconlar>i {
+    margin-left: 10px;
+}
+
+.iconlar>.fa-facebook-f {
+    margin-left: 1px;
+}
+
+.footh3 {
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+input>::placeholder {
+    font-size: 30px;
+}
+
+.footbutton {
+    width: 160px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.footbutton:hover {
+    background-color: rgba(0, 0, 0, 0.726);
+}
+.reqemkecid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kecidler{
+    margin-inline: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(235, 235, 235);
+}
+.reqemkecid>a{
+    text-decoration: none;
+    color: black;
+}
+.areqemkecid1>.kecidler{
+    background-color: orange;
+}

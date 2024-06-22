@@ -1,0 +1,435 @@
+header {
+    background-color: #fef5ef;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.headorta {
+    padding-right: 35px;
+    padding-top: 5px;
+}
+
+header>.headorta>nav>ul>li>label {
+    font-size: 18px;
+}
+label {
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+label>a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.headorta>nav>ul {
+    display: flex;
+}
+
+.headorta>nav>ul>li {
+    margin: 0 25px;
+}
+
+
+.headsag>a {
+    margin: 0 20px;
+}
+
+.headsag>a>i {
+    color: black;
+    font-size: 22px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.shopbasliq {
+    margin-top: 60px;
+    height: 330px;
+    background-image: url(./details/images/shopbasliq.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopbasliq>h3 {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.avep {
+    display: flex;
+    margin: 20px 0 45px 0;
+}
+
+.avep>a {
+    color: white;
+    border-right: 2px solid white;
+    text-decoration: none;
+    height: 25px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avep>p {
+    color: orange;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.latestesasust {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.latestesas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.latests1,
+.latests2,
+.latests3,
+.latests4,
+.latests5,
+.latests6,
+.latests7,
+.latests8,
+.latests9 {
+    width: 440px;
+    height: 500px;
+    position: relative;
+    background-size: 100% 62%;
+    background-repeat: no-repeat;
+    transition: 1s all;
+    overflow: hidden;
+}
+
+.latestsalt {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 38%;
+    background-color: white;
+}
+
+.latests1 {
+    background-image: url(./details/images/latest1.png);
+}
+
+.latests2 {
+    background-image: url(./details/images/latest2.png);
+}
+
+.latests3 {
+    background-image: url(./details/images/latest3.png);
+}
+
+.latests4 {
+    background-image: url(./details/images/latests4.png);
+}
+
+.latests5 {
+    background-image: url(./details/images/latests5.png);
+}
+
+.latests6 {
+    background-image: url(./details/images/latests6.png);
+}
+
+.latests7 {
+    background-image: url(./details/images/latests7.png);
+}
+
+.latests8 {
+    background-image: url(./details/images/latests8.png);
+}
+
+.latests9 {
+    background-image: url(./details/images/latests9.png);
+}
+
+.latestsalt {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.latestsalta {
+    color: #f79837;
+    font-weight: bolder;
+}
+
+.latestp {
+    color: gray;
+    width: 400px;
+}
+
+.latestabutton {
+    text-decoration: none;
+}
+
+.latestabuttonn {
+    background-color: white;
+    height: 40px;
+    width: 180px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.fa-arrow-right {
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+.latests1:hover {
+    background-size: 104% 66%;
+}
+
+.latests2:hover {
+    background-size: 104% 66%;
+}
+
+.latests3:hover {
+    background-size: 104% 66%;
+}
+
+.latests4:hover {
+    background-size: 104% 66%;
+}
+
+.latests5:hover {
+    background-size: 104% 66%;
+}
+
+.latests6:hover {
+    background-size: 104% 66%;
+}
+
+.latests7:hover {
+    background-size: 104% 66%;
+}
+
+.latests8:hover {
+    background-size: 104% 66%;
+}
+
+.latests9:hover {
+    background-size: 104% 66%;
+}
+
+#followush2 {
+    margin-top: 70px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 43px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.followus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.followusp {
+    margin-bottom: 40px;
+}
+
+.followusesas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+div[class*="followinsta"] {
+    width: 19%;
+    height: 365px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.followinsta1 {
+    background-image: url(./details/images/followus1.png);
+}
+
+.followinsta2 {
+    background-image: url(./details/images/followus2.png);
+}
+
+.followinsta3 {
+    background-image: url(./details/images/followus3.png);
+}
+
+.followinsta4 {
+    background-image: url(./details/images/followus4.png);
+}
+
+.followinsta5 {
+    background-image: url(./details/images/followus5.png);
+}
+
+.followwlayout {
+    width: 100%;
+    height: inherit;
+    background-color: rgb(255, 255, 255, 0.5);
+    display: none;
+}
+
+#followicon {
+    font-size: 45px;
+    margin: 170px 0 0 130px;
+}
+
+.followinsta1:hover .followwlayout {
+    display: block;
+}
+
+.followinsta2:hover .followwlayout {
+    display: block;
+}
+
+.followinsta3:hover .followwlayout {
+    display: block;
+}
+
+.followinsta4:hover .followwlayout {
+    display: block;
+}
+
+.followinsta5:hover .followwlayout {
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    padding-top: 70px;
+    background-color: rgb(237, 236, 236);
+}
+
+.foot1 {
+    height: 240px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot2 {
+    height: 200px;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot3 {
+    height: 200px;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot4 {
+    height: 160px;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer>.foot4>input {
+    display: block;
+    width: 90%;
+    height: 40px;
+}
+
+div[class*="foot"]>a {
+    text-decoration: none;
+    color: black;
+}
+
+.foot1>p {
+    color: gray;
+    line-height: 23px;
+}
+
+.iconlar>i {
+    margin-left: 10px;
+}
+
+.iconlar>.fa-facebook-f {
+    margin-left: 1px;
+}
+
+.footh3 {
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+input>::placeholder {
+    font-size: 30px;
+}
+
+.footbutton {
+    width: 160px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.footbutton:hover {
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+.reqemkecid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kecidler {
+    margin-inline: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(235, 235, 235);
+}
+
+.reqemkecid>a {
+    text-decoration: none;
+    color: black;
+}
+
+.areqemkecid1>.kecidler {
+    background-color: orange;
+}

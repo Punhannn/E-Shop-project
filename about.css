@@ -1,0 +1,458 @@
+header {
+    background-color: #fef5ef;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.headorta {
+    padding-right: 35px;
+    padding-top: 5px;
+}
+
+header>.headorta>nav>ul>li>label {
+    font-size: 18px;
+}
+
+label {
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+label>a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.headorta>nav>ul {
+    display: flex;
+}
+
+.headorta>nav>ul>li {
+    margin: 0 25px;
+}
+
+
+.headsag>a {
+    margin: 0 20px;
+}
+
+.headsag>a>i {
+    color: black;
+    font-size: 22px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.shopbasliq {
+    margin-top: 60px;
+    height: 330px;
+    background-image: url(./details/images/shopbasliq.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopbasliq>h3 {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.avep {
+    display: flex;
+    margin: 20px 0 45px 0;
+}
+
+.avep>a {
+    color: white;
+    border-right: 2px solid white;
+    text-decoration: none;
+    height: 25px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avep>p {
+    color: orange;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutesas {
+    width: 94.5%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(./details/images/about.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+
+.aboutyazi {
+    width: 50%;
+}
+
+.aboutyazi>h4 {
+    font-size: 36px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.aboutyazi>.bir {
+    font-size: 22px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.aboutyazi>.iki {
+    color: gray;
+    line-height: 24px;
+}
+
+.func {
+    height: 250px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.funcsol,
+.funcsag {
+    width: 45%;
+}
+
+.funcsol>h4 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.funcsol>p {
+    color: gray;
+    line-height: 24px;
+}
+
+.rengler1,
+.rengler2,
+.rengler3 {
+    width: 100%;
+    height: 15px;
+    display: flex;
+}
+
+.rengler2 {
+    margin-block: 30px;
+}
+
+.funcsag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ici1 {
+    background-color: #d35400;
+    width: 15%;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 0 0 20px;
+}
+
+.rengler1>.ici2 {
+    width: 60%;
+    background-color: #e67e22;
+}
+
+.rengler2>.ici2 {
+    width: 50%;
+    background-color: #e67e22;
+}
+
+.rengler3>.ici2 {
+    width: 40%;
+    background-color: #e67e22;
+}
+
+.rengler1>.ici3 {
+    width: 25%;
+}
+
+.rengler2>.ici3 {
+    width: 35%;
+}
+
+.rengler3>.ici3 {
+    width: 45%;
+}
+
+.ici3 {
+    background-color: #c9c9c9;
+    display: flex;
+    justify-content: flex-end;
+}
+.expertesas{
+    padding-bottom: 30px;
+    background-color: #f6f6f6;
+    margin-top: 50px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.expertesas>h3{
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-weight: 600;
+}
+.expertesas>p{
+    color: gray;
+    margin-bottom: 40px;
+}
+.experts{
+    display: flex;
+    justify-content: space-around;
+}
+.expert{
+    width: 20%;
+    height: 400px;
+}
+.expertalt{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.expertalt>h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+.expertalt>p{
+    margin-block: 6px;
+}
+.expertikon>i{
+    margin-inline: 2px;
+}
+.expertikon{
+    transition: 0.4s all ;
+    opacity: 0;
+}
+.expert:hover .expertikon{
+    opacity: 1;
+}
+
+
+
+#followush2 {
+    margin-top: 70px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 43px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.followus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.followusp {
+    margin-bottom: 40px;
+}
+
+.followusesas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+div[class*="followinsta"] {
+    width: 19%;
+    height: 365px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.followinsta1 {
+    background-image: url(./details/images/followus1.png);
+}
+
+.followinsta2 {
+    background-image: url(./details/images/followus2.png);
+}
+
+.followinsta3 {
+    background-image: url(./details/images/followus3.png);
+}
+
+.followinsta4 {
+    background-image: url(./details/images/followus4.png);
+}
+
+.followinsta5 {
+    background-image: url(./details/images/followus5.png);
+}
+
+.followwlayout {
+    width: 100%;
+    height: inherit;
+    background-color: rgb(255, 255, 255, 0.5);
+    display: none;
+}
+
+#followicon {
+    font-size: 45px;
+    margin: 170px 0 0 130px;
+}
+
+.followinsta1:hover .followwlayout {
+    display: block;
+}
+
+.followinsta2:hover .followwlayout {
+    display: block;
+}
+
+.followinsta3:hover .followwlayout {
+    display: block;
+}
+
+.followinsta4:hover .followwlayout {
+    display: block;
+}
+
+.followinsta5:hover .followwlayout {
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    padding-top: 70px;
+    background-color: rgb(237, 236, 236);
+}
+
+.foot1 {
+    height: 240px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot2 {
+    height: 200px;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot3 {
+    height: 200px;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot4 {
+    height: 160px;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer>.foot4>input {
+    display: block;
+    width: 90%;
+    height: 40px;
+}
+
+div[class*="foot"]>a {
+    text-decoration: none;
+    color: black;
+}
+
+.foot1>p {
+    color: gray;
+    line-height: 23px;
+}
+
+.iconlar>i {
+    margin-left: 10px;
+}
+
+.iconlar>.fa-facebook-f {
+    margin-left: 1px;
+}
+
+.footh3 {
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+input>::placeholder {
+    font-size: 30px;
+}
+
+.footbutton {
+    width: 160px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.footbutton:hover {
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+.reqemkecid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kecidler {
+    margin-inline: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(235, 235, 235);
+}
+
+.reqemkecid>a {
+    text-decoration: none;
+    color: black;
+}
+
+.areqemkecid1>.kecidler {
+    background-color: orange;
+}

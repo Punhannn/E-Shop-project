@@ -1,0 +1,644 @@
+header {
+    background-color: #fef5ef;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.headorta {
+    padding-right: 35px;
+    padding-top: 5px;
+}
+
+header>.headorta>nav>ul>li>label {
+    font-size: 18px;
+}
+
+label {
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+label>a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.headorta>nav>ul {
+    display: flex;
+}
+
+.headorta>nav>ul>li {
+    margin: 0 25px;
+}
+
+.headsag>a {
+    margin: 0 20px;
+}
+
+.headsag>a>i {
+    color: black;
+    font-size: 22px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.headeralt {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #fef5ef;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.headeralt>a {
+    color: black;
+    text-decoration: none;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: 0.3s all;
+}
+
+.headeralt>a:hover {
+    color: #f79837;
+}
+
+.headeralt>a:nth-child(1),
+.headeralt>a:nth-child(2) {
+    border-right: 2px solid black;
+}
+
+.headeralt>a:nth-child(3) {
+    padding-left: 23px;
+}
+
+.collection {
+    width: 100%;
+    height: 720px;
+    background-image: url(./details/images/./electronicsesas.png);
+    background-size: 120% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.collectionspan {
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+.collectionh2 {
+    font-size: 60px;
+    font-weight: bolder;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+.collectionh2>span {
+    font-size: 60px;
+    font-weight: bolder;
+    color: orange;
+}
+
+.collection>p {
+    color: rgb(95, 95, 95);
+    margin: 30px 0;
+    margin-left: 70px;
+}
+
+.sofacolbutton {
+    margin-left: 70px;
+    margin-top: 20px;
+    height: 40px;
+    width: 160px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+.headphoneesas {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+}
+
+.headphonesag {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headphonesol,
+.headphonesag {
+    width: 46%;
+    height: 550px;
+}
+
+.headphonealt,
+.headphoneust {
+    width: 100%;
+    height: 46%;
+}
+
+.headphonesol {
+    background-image: url(./details/images/headsol.png);
+    background-size: contain;
+    background-size: 50% 85%;
+    background-position: right;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 9px rgb(223, 223, 223);
+    background-color: rgb(237, 237, 237);
+    transition: 0.4s all;
+}
+
+.headphonesol:hover {
+    background-size: 53% 88%;
+}
+
+.headphoneust {
+    background-image: url(./details/images/headsagust.png);
+    background-size: contain;
+    background-size: 50% 85%;
+    background-position: right;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 9px rgb(223, 223, 223);
+    background-color: rgb(237, 237, 237);
+    transition: 0.4s all;
+}
+
+.headphoneust:hover {
+    background-size: 53% 88%;
+}
+
+
+.headphonealt {
+    background-image: url(./details/images/headsagalt.png);
+    background-size: contain;
+    background-size: 50% 85%;
+    background-position: right;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 9px rgb(223, 223, 223);
+    background-color: rgb(237, 237, 237);
+    transition: 0.4s all;
+}
+
+.headphonealt:hover {
+    background-size: 53% 88%;
+}
+
+.headphonesol>h3 {
+    font-size: 50px;
+    margin: 60px 0 20px 30px;
+}
+
+.headphonesol>p {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.headbutton>button {
+    height: 40px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0 30px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    transition: 0.4s all;
+}
+
+.headbutton>button:hover {
+    background-color: white;
+    color: black;
+}
+
+.headphoneust>h3,
+.headphonealt>h3 {
+    font-weight: 600;
+    font-size: 25px;
+    margin: 50px 0 17px 30px;
+}
+
+.headphoneust>p,
+.headphonealt>p {
+    margin-left: 30px;
+}
+
+.ikonesas {
+    height: 130px;
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid rgb(213, 213, 213);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.ikonyazi {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.ikonyazi>p>span {
+    font-weight: bolder;
+}
+
+.topprodh3 {
+    margin: 0 0 30px 40px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.topproddivust,
+.topproddivalt {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div[class*="prodbox"] {
+    width: 330px;
+    height: 430px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.prodalt {
+    width: 330px;
+    height: 330px;
+}
+
+.produst {
+    width: 330px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prodbox1 {
+    background-image: url(./details/images/prod1.jpg);
+    background-size: 330px 330px;
+    background-repeat: no-repeat;
+}
+
+.prodbox2 {
+    background-image: url(./details/images/prod2.jpg);
+    background-size: 330px 330px;
+    background-repeat: no-repeat;
+}
+
+.prodbox3 {
+    background-image: url(./details/images/prod3.jpg);
+    background-size: 330px 330px;
+    background-repeat: no-repeat;
+}
+
+.prodbox4 {
+    background-image: url(./details/images/prod4.jpg);
+    background-size: 330px 330px;
+    background-repeat: no-repeat;
+}
+
+.prodbox5 {
+    background-image: url(./details/images/prod5.jpg);
+    background-size: 330px 330px;
+    background-repeat: no-repeat;
+}
+
+.prodbox6 {
+    background-image: url(./details/images/prod6.jpg);
+    background-size: 330px 330px;
+    background-repeat: no-repeat;
+}
+
+.prodbox7 {
+    background-image: url(./details/images/prod7.jpg);
+    background-size: 330px 330px;
+    background-repeat: no-repeat;
+}
+
+.prodbox8 {
+    background-image: url(./details/images/prod8.jpg);
+    background-size: 330px 330px;
+    background-repeat: no-repeat;
+}
+
+.prodikon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    border: 1px solid rgb(232, 232, 232);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.prodalt {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.prodbox1:hover .prodikon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prodbox2:hover .prodikon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prodbox3:hover .prodikon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prodbox4:hover .prodikon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prodbox5:hover .prodikon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prodbox6:hover .prodikon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prodbox7:hover .prodikon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prodbox8:hover .prodikon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dolbyesas {
+    height: 500px;
+    background-color: rgb(240, 240, 240);
+    padding-top: 100px;
+    background-image: url(./details/images/dolbyatmos.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.dolbyh3 {
+    font-size: 45px;
+    font-weight: bolder;
+    margin-left: 40px;
+}
+
+.dolbyp {
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: rgb(113, 113, 113);
+    margin-bottom: 50px;
+}
+
+.dolbyikon {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.dolbyikon>i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    font-size: 25px;
+}
+
+.dolbyyazi {
+    margin-top: 10px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 46%;
+}
+
+.dolbyyazi>p:nth-child(2) {
+    margin-left: 60px;
+    padding-right: 20px;
+}
+
+.dolbyyazi>p:nth-child(3) {
+    margin-left: 60px;
+    padding-right: 60px;
+}
+
+.dolbyyazi>p:nth-child(4) {
+    padding-right: 60px;
+}
+
+#followush2 {
+    margin-top: 70px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 43px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.followus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.followusp {
+    margin-bottom: 40px;
+}
+
+.followusesas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+div[class*="followinsta"] {
+    width: 19%;
+    height: 365px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.followinsta1 {
+    background-image: url(./details/images/followus1.png);
+}
+
+.followinsta2 {
+    background-image: url(./details/images/followus2.png);
+}
+
+.followinsta3 {
+    background-image: url(./details/images/followus3.png);
+}
+
+.followinsta4 {
+    background-image: url(./details/images/followus4.png);
+}
+
+.followinsta5 {
+    background-image: url(./details/images/followus5.png);
+}
+
+.followwlayout {
+    width: 100%;
+    height: inherit;
+    background-color: rgb(255, 255, 255, 0.5);
+    display: none;
+}
+
+#followicon {
+    font-size: 45px;
+    margin: 170px 0 0 130px;
+}
+
+.followinsta1:hover .followwlayout {
+    display: block;
+}
+
+.followinsta2:hover .followwlayout {
+    display: block;
+}
+
+.followinsta3:hover .followwlayout {
+    display: block;
+}
+
+.followinsta4:hover .followwlayout {
+    display: block;
+}
+
+.followinsta5:hover .followwlayout {
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    padding-top: 70px;
+    background-color: rgb(237, 236, 236);
+}
+
+.foot1 {
+    height: 240px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot2 {
+    height: 200px;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot3 {
+    height: 200px;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot4 {
+    height: 160px;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer>.foot4>input {
+    display: block;
+    width: 90%;
+    height: 40px;
+}
+
+div[class*="foot"]>a {
+    text-decoration: none;
+    color: black;
+}
+
+.foot1>p {
+    color: gray;
+    line-height: 23px;
+}
+
+.iconlar>i {
+    margin-left: 10px;
+}
+
+.iconlar>.fa-facebook-f {
+    margin-left: 1px;
+}
+
+.footh3 {
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+input>::placeholder {
+    font-size: 30px;
+}
+
+.footbutton {
+    width: 160px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.footbutton:hover {
+    background-color: rgba(0, 0, 0, 0.726);
+}
